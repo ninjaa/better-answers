@@ -84,7 +84,7 @@ def run_graph_connectivity(limit: int = 20, model: str = "gpt-4"):
                 f"Time taken for question {index}: {rounded_elapsed_time} seconds")
             print("--------------------------------------------------")
             condensed_result = ask_gpt(
-                "Extract either single word Yes or No from the following response to a question: " + result)
+                "Extract single word summary {Yes, No, Incomplete} from the following response to a question: " + result)
             results.append({
                 "run_time_s": rounded_elapsed_time,
                 "question": graph_qn,
