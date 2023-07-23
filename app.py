@@ -93,7 +93,7 @@ def run_graph_connectivity(limit: int = 20, model: str = "gpt-4"):
                 "model": model
             })
 
-    result_filename = f"./output/graph_connectivity_{model}_{limit}_tries.csv"
+    result_filename = f"./output/graph_connectivity_{model}_{limit}_tries_20_depth.csv"
     fieldnames = list(results[0].keys())
     with open(result_filename, mode='w', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=fieldnames)
