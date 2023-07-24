@@ -1,4 +1,4 @@
-run_time_s,question,answer,condensed_result,model
+run_time_s,question,answer,condensed_result,model,right_answer
 20.1,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city F to city L
 There is a flight from city J to city E
@@ -13,7 +13,7 @@ There is a flight from city H to city N
 There is a flight from city B to city D
 There is a flight from city J to city C
 
-Question: Is there a series of flights that goes from city F to city I?","According to the flight information provided, there is no series of flights that goes from city F to city I.",No,gpt-4
+Question: Is there a series of flights that goes from city F to city I?","According to the flight information provided, there is no series of flights that goes from city F to city I.",No,gpt-4,Yes
 24.21,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city A to city F
 There is a flight from city N to city B
@@ -28,7 +28,7 @@ There is a flight from city D to city A
 There is a flight from city L to city J
 There is a flight from city K to city H
 
-Question: Is there a series of flights that goes from city L to city M?","According to the flight information provided and the graph traversal algorithm, there is no series of flights that goes from city L to city M.",No,gpt-4
+Question: Is there a series of flights that goes from city L to city M?","According to the flight information provided and the graph traversal algorithm, there is no series of flights that goes from city L to city M.",No,gpt-4,Yes
 172.33,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city M to city H
 There is a flight from city N to city G
@@ -43,7 +43,7 @@ There is a flight from city A to city D
 There is a flight from city F to city B
 There is a flight from city E to city N
 
-Question: Is there a series of flights that goes from city A to city H?",Agent stopped due to iteration limit or time limit.,Incomplete,gpt-4
+Question: Is there a series of flights that goes from city A to city H?",Agent stopped due to iteration limit or time limit.,Incomplete,gpt-4,Incomplete
 20.66,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city L to city F
 There is a flight from city H to city A
@@ -58,7 +58,7 @@ There is a flight from city H to city B
 There is a flight from city A to city D
 There is a flight from city N to city J
 
-Question: Is there a series of flights that goes from city L to city G?","Based on the current flight information, there is no series of flights that goes from city L to city G.",No,gpt-4
+Question: Is there a series of flights that goes from city L to city G?","Based on the current flight information, there is no series of flights that goes from city L to city G.",No,gpt-4,Yes
 111.95,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city E to city G
 There is a flight from city C to city J
@@ -73,7 +73,7 @@ There is a flight from city K to city E
 There is a flight from city L to city A
 There is a flight from city N to city L
 
-Question: Is there a series of flights that goes from city N to city B?",Agent stopped due to iteration limit or time limit.,Incomplete,gpt-4
+Question: Is there a series of flights that goes from city N to city B?",Agent stopped due to iteration limit or time limit.,Incomplete,gpt-4,Incomplete
 24.78,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city C to city M
 There is a flight from city G to city I
@@ -88,7 +88,7 @@ There is a flight from city I to city A
 There is a flight from city J to city H
 There is a flight from city G to city C
 
-Question: Is there a series of flights that goes from city G to city L?","Based on the current flight information, there is no series of flights that goes from city G to city L.",No,gpt-4
+Question: Is there a series of flights that goes from city G to city L?","Based on the current flight information, there is no series of flights that goes from city G to city L.",No,gpt-4,Yes
 22.67,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city E to city L
 There is a flight from city D to city B
@@ -103,7 +103,7 @@ There is a flight from city I to city N
 There is a flight from city M to city E
 There is a flight from city I to city C
 
-Question: Is there a series of flights that goes from city M to city K?","According to the flight information provided, there is no series of flights that goes from city M to city K.",No,gpt-4
+Question: Is there a series of flights that goes from city M to city K?","According to the flight information provided, there is no series of flights that goes from city M to city K.",No,gpt-4,Yes
 25.38,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city F to city D
 There is a flight from city M to city G
@@ -118,7 +118,7 @@ There is a flight from city J to city N
 There is a flight from city M to city H
 There is a flight from city J to city K
 
-Question: Is there a series of flights that goes from city A to city K?","According to the flight information provided and the graph traversal algorithm, there is no series of flights that goes from city A to city K.",No,gpt-4
+Question: Is there a series of flights that goes from city A to city K?","According to the flight information provided and the graph traversal algorithm, there is no series of flights that goes from city A to city K.",No,gpt-4,Yes
 22.85,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city H to city I
 There is a flight from city B to city M
@@ -133,7 +133,7 @@ There is a flight from city I to city K
 There is a flight from city J to city N
 There is a flight from city M to city G
 
-Question: Is there a series of flights that goes from city B to city N?","According to the flight information provided and the graph traversal, there is no series of flights that goes from city B to city N.",No,gpt-4
+Question: Is there a series of flights that goes from city B to city N?","According to the flight information provided and the graph traversal, there is no series of flights that goes from city B to city N.",No,gpt-4,Yes
 19.56,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city C to city G
 There is a flight from city N to city D
@@ -148,7 +148,7 @@ There is a flight from city N to city L
 There is a flight from city F to city I
 There is a flight from city M to city A
 
-Question: Is there a series of flights that goes from city H to city D?","Based on the flight information provided, there is no series of flights that goes from city H to city D.",No,gpt-4
+Question: Is there a series of flights that goes from city H to city D?","Based on the flight information provided, there is no series of flights that goes from city H to city D.",No,gpt-4,Yes
 20.23,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city J to city N
 There is a flight from city B to city D
@@ -163,7 +163,7 @@ There is a flight from city B to city E
 There is a flight from city L to city M
 There is a flight from city L to city H
 
-Question: Is there a series of flights that goes from city C to city D?","According to the flight information provided and the graph traversal, there is no series of flights that goes from city C to city D.",No,gpt-4
+Question: Is there a series of flights that goes from city C to city D?","According to the flight information provided and the graph traversal, there is no series of flights that goes from city C to city D.",No,gpt-4,Yes
 18.49,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city N to city M
 There is a flight from city C to city I
@@ -178,7 +178,7 @@ There is a flight from city L to city A
 There is a flight from city I to city G
 There is a flight from city D to city F
 
-Question: Is there a series of flights that goes from city C to city H?","According to the flight information provided, there is no series of flights that goes from city C to city H.",No,gpt-4
+Question: Is there a series of flights that goes from city C to city H?","According to the flight information provided, there is no series of flights that goes from city C to city H.",No,gpt-4,Yes
 19.96,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city H to city G
 There is a flight from city M to city L
@@ -193,7 +193,7 @@ There is a flight from city A to city K
 There is a flight from city H to city N
 There is a flight from city L to city J
 
-Question: Is there a series of flights that goes from city M to city E?","Based on the current flight information, there is no series of flights that goes from city M to city E.",No,gpt-4
+Question: Is there a series of flights that goes from city M to city E?","Based on the current flight information, there is no series of flights that goes from city M to city E.",No,gpt-4,Yes
 141.7,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city F to city E
 There is a flight from city H to city J
@@ -208,7 +208,7 @@ There is a flight from city N to city I
 There is a flight from city C to city M
 There is a flight from city H to city K
 
-Question: Is there a series of flights that goes from city C to city E?",Agent stopped due to iteration limit or time limit.,Incomplete,gpt-4
+Question: Is there a series of flights that goes from city C to city E?",Agent stopped due to iteration limit or time limit.,Incomplete,gpt-4,Incomplete
 59.92,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city I to city M
 There is a flight from city G to city A
@@ -223,7 +223,7 @@ There is a flight from city L to city I
 There is a flight from city K to city N
 There is a flight from city G to city J
 
-Question: Is there a series of flights that goes from city L to city D?","I apologize for the confusion earlier. Based on the flight information provided, there is no series of flights that goes from city L to city D.",No,gpt-4
+Question: Is there a series of flights that goes from city L to city D?","I apologize for the confusion earlier. Based on the flight information provided, there is no series of flights that goes from city L to city D.",No,gpt-4,Yes
 163.97,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city K to city A
 There is a flight from city D to city B
@@ -238,7 +238,7 @@ There is a flight from city N to city D
 There is a flight from city E to city I
 There is a flight from city K to city M
 
-Question: Is there a series of flights that goes from city N to city A?",Agent stopped due to iteration limit or time limit.,Incomplete,gpt-4
+Question: Is there a series of flights that goes from city N to city A?",Agent stopped due to iteration limit or time limit.,Incomplete,gpt-4,Incomplete
 47.87,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city M to city L
 There is a flight from city I to city A
@@ -253,7 +253,7 @@ There is a flight from city K to city M
 There is a flight from city G to city I
 There is a flight from city N to city B
 
-Question: Is there a series of flights that goes from city K to city C?","From the print statements, it seems that the depth-first search is working correctly. However, it does not find a path from city K to city C. This means that, based on the provided flight information, there is no series of flights that goes from city K to city C.",No,gpt-4
+Question: Is there a series of flights that goes from city K to city C?","From the print statements, it seems that the depth-first search is working correctly. However, it does not find a path from city K to city C. This means that, based on the provided flight information, there is no series of flights that goes from city K to city C.",No,gpt-4,Yes
 18.8,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city D to city E
 There is a flight from city C to city N
@@ -268,7 +268,7 @@ There is a flight from city J to city C
 There is a flight from city M to city I
 There is a flight from city B to city D
 
-Question: Is there a series of flights that goes from city B to city N?","According to the graph traversal, there is no series of flights that goes from city B to city N with the current flight information.",No,gpt-4
+Question: Is there a series of flights that goes from city B to city N?","According to the graph traversal, there is no series of flights that goes from city B to city N with the current flight information.",No,gpt-4,Yes
 20.85,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city E to city C
 There is a flight from city G to city F
@@ -283,7 +283,7 @@ There is a flight from city N to city M
 There is a flight from city J to city I
 There is a flight from city N to city G
 
-Question: Is there a series of flights that goes from city E to city K?","According to the flight information provided, there is no series of flights that goes from city E to city K.",No,gpt-4
+Question: Is there a series of flights that goes from city E to city K?","According to the flight information provided, there is no series of flights that goes from city E to city K.",No,gpt-4,Yes
 23.69,"Current flight information (the following flights are one-way only, and all the flights available are included below):
 There is a flight from city K to city N
 There is a flight from city N to city G
@@ -298,4 +298,4 @@ There is a flight from city E to city C
 There is a flight from city A to city B
 There is a flight from city E to city F
 
-Question: Is there a series of flights that goes from city K to city D?","According to the flight information provided and the graph traversal, there is no series of flights that goes from city K to city D.",No,gpt-4
+Question: Is there a series of flights that goes from city K to city D?","According to the flight information provided and the graph traversal, there is no series of flights that goes from city K to city D.",No,gpt-4,Yes
