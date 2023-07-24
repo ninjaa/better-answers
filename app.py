@@ -86,8 +86,8 @@ def run_graph_connectivity(limit: int = 20, model: str = "gpt-4"):
             condensed_result = ask_gpt(
                 "Extract single word summary {Yes, No, Incomplete} from the following response to a question: " + result)
             # Right answer for this dataset is always "No"
-            right_answer = "Yes" if condensed_result.lower(().includes(
-                "no")) else "No" if condensed_result.lower().includes("yes") else "Incomplete"
+            right_answer = "Yes" if "no" in condensed_result.lower(
+            ) else "No" if "yes" in condensed_result.lower() else "Incomplete"
             results.append({
                 "run_time_s": rounded_elapsed_time,
                 "question": graph_qn,
